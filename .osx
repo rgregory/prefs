@@ -1,0 +1,62 @@
+# defaults write com.apple.dock showhidden -bool true
+defaults write NSGlobalDomain NSWindowResizeTime .001
+defaults write NSGlobalDomain AppleShowScrollBars Always
+defaults write com.apple.iTunes invertStoreLinks -bool YES
+defaults write com.apple.Safari IncludeDebugMenu 1
+defaults write com.apple.diskcopy expert-mode 1
+# defaults write com.apple.mail PreferPlainText -bool true
+## defaults write com.apple.addressbook ABShowDebugMenu -bool true
+defaults write com.apple.dvdplayer EnableDebugging -bool true
+defaults write .GlobalPreferences AppleSmoothFixedFontsSizeThreshold 4
+defaults write -g com.apple.print.apple.pictwpstopdf NO
+defaults write com.apple.Safari WebKitOmitPDFSupport -bool YES
+defaults write com.apple.Safari WebKitInitialTimedLayoutDelay 0.25
+defaults write com.apple.finder DisableAllAnimations -bool true
+defaults write NSGlobalDomain NSAutomaticWindowAnimationsEnabled -bool NO
+defaults write com.apple.LaunchServices LSQuarantine true
+defaults write com.blacktree.Quicksilver QSSVNShowChangedFiles 1
+defaults write com.apple.x11 enable_stereo -bool true
+defaults write com.apple.desktopservices DSDontWriteNetworkStores FALSE
+defaults write com.apple.finder _FXShowPosixPathInTitle -bool YES
+defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
+defaults write NSGlobalDomain AppleFontSmoothing -int 2
+defaults write com.apple.dock autohide -bool true
+defaults write com.apple.dock showhidden -bool false
+defaults write NSGlobalDomain AppleEnableMenuBarTransparency -bool false
+defaults write NSGlobalDomain AppleShowScrollBars -string "Always"
+defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
+defaults write NSGlobalDomain PMPrintingExpandedStateForPrint -bool true
+defaults write com.apple.screencapture disable-shadow -bool true
+defaults write com.apple.dock launchanim -bool false
+defaults write NSGlobalDomain KeyRepeat -int 2
+defaults write com.apple.frameworks.diskimages skip-verify -bool true
+defaults write com.apple.frameworks.diskimages skip-verify-locked -bool true
+defaults write com.apple.frameworks.diskimages skip-verify-remote -bool true
+defaults write NSGlobalDomain NSWindowResizeTime -float 0.001
+defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
+defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
+defaults write com.apple.finder WarnOnEmptyTrash -bool false
+defaults write com.apple.screensaver askForPassword -int 1
+defaults write com.apple.screensaver askForPasswordDelay -int 0
+defaults write com.apple.iTunes disablePingSidebar -bool true
+defaults write com.apple.iTunes disablePing -bool true
+defaults write com.apple.Mail DisableReplyAnimations -bool true
+defaults write com.apple.Mail DisableSendAnimations -bool true
+defaults write com.apple.dock no-glass -boolean YES
+defaults write com.apple.Safari DebugSafari4TabBarIsOnTop -bool NO
+defaults write com.apple.Safari HistoryAgeInDaysLimit 2000
+# defaults write com.apple.x11 no_auth 1
+# defaults write com.apple.x11 no_listen_tcp 1
+# defaults write com.apple.x11 nolisten_tcp 1
+defaults write com.apple.screencapture disable-shadow -bool true
+defaults write com.apple.systemuiserver menuExtras -array "/System/Library/CoreServices/Menu Extras/Bluetooth.menu" "/System/Library/CoreServices/Menu Extras/AirPort.menu" "/System/Library/CoreServices/Menu Extras/Battery.menu" "/System/Library/CoreServices/Menu Extras/Clock.menu"
+defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" -int 40
+defaults write com.apple.screensaver askForPassword -int 1
+defaults write com.apple.screensaver askForPasswordDelay -int 0
+defaults write com.apple.finder WarnOnEmptyTrash -bool false
+defaults write com.apple.finder EmptyTrashSecurely -bool true
+chflags nohidden ~/Library
+defaults write com.apple.dock expose-animation-duration -float 0.1
+defaults write com.twitter.twitter-mac AutomaticQuoteSubstitutionEnabled -bool false
+defaults write com.apple.iCal CalUIDebugDefaultDaysInWeekView 10
+# sudo defaults write /Library/Preferences/com.apple.loginwindow DesktopPicture -string "/Library/Desktop Pictures/Nature/Stones.jpg"
